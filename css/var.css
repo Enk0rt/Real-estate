@@ -1,0 +1,11 @@
+:root{
+   --mont: "Montserrat",sans-serif;
+   --rale: "Raleway",sans-serif;
+   --dark: #070707;
+   --text: #fff;
+   --header-dots:#FFE3C0;
+   --to-do-dots: #D1A475;
+   --btn-orange: #D3A779;
+   --card-gray: rgba(255, 255, 255, 0.15);
+
+}

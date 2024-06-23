@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@400;600;700&display=swap');
+
+
+.head{ 
+   color: #FFF;
+
+   font-family: var(--rale);
+   font-size: 36px;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+.mrg { 
+   margin: 20px;
+}
+
+.btn a {
+   text-decoration: none;
+   padding: 30px 49px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+
+   text-align: center;
+   border: 2px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #CEAA7D 0%, #D1A475 0.01%, #F3E7DB 50.08%, #D1A475 100%, #D1A475 100%);
+    transition: .3s all ease;
+}
+
+.btn a:hover{
+   border:  2px solid white;
+   background:none; 
+   color: var(--text);
+   transition: .3s all ease;
+}
+
+.btn-text { 
+   color: #070707;
+   font-family: 'Montserrat',sans-serif;
+   font-size: 30px;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.benefits__card {
+   width: 430px;
+   overflow: hidden;
+   background: rgba(255, 255, 255, 0.15);
+
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+}
+
+
+.benefits__card-header{
+   display: flex;
+
+   align-items: center;
+
+   padding: 0 26px 0 26px;
+
+}
+
+.benefits__card-header-number{
+   font-family: var(--rale);
+   font-size: 150px;
+   font-weight: 700;
+   line-height: 150px;
+
+   text-transform: uppercase;
+   
+   color: transparent;
+   -webkit-text-stroke: 1px var(--header-dots);
+
+   margin-right: 26px;
+}
+
+.benefits__card-header-text {
+   color: var(--text);
+   
+   font-family: var(--rale),sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 36px;
+
+   text-transform: uppercase;
+   align-self: center;
+   
+   margin-top:15px;
+}
+
+.benefits__card-list {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   list-style: none;
+   color: var(--text);
+
+   font-family: var(--rale);
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+
+   padding: 10px;
+   margin: 20px 0 0 29px;
+}
+.benefits__card-list-item{
+   display: flex;
+   align-items: flex-start;
+}
+.benefits__card-list-item::before {
+   content: '•';
+
+   padding:0 12px 0 0;
+}
+
+.benefits__card-pic{
+   width: 100%;
+   object-fit: cover;
+   align-self: flex-end;
+   margin: 30px 0 0 0;
+}
+
+.risks__card {
+   width: 430px;
+   
+   display: flex;
+   flex-flow: column ;
+   justify-content: center;
+
+   display:flex;
+   flex-flow: column;
+   justify-content: center;   
+   background-color:rgba(255, 255, 255, 0.15);
+   padding-bottom: 5px;
+}
+
+.risks__card-negative {
+   display: flex;
+}
+.risks__card-negative-pic{
+   margin: 20px;
+}
+.risks__card-negative-text {
+   align-self: center;
+
+   color: #fff;
+   font-family: var(--rale);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 36px;
+
+   text-transform: uppercase;
+
+}
+.risks__card-positive {
+   display: flex;
+}
+.risks__card-positive-pic{
+   margin: 0 0 0 10px ;
+}
+.risks__card-positive-text {
+   align-self: center ;
+
+   color: #fff;
+   font-family: var(--rale);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 36px;
+
+   text-transform: uppercase;
+}
+
+.advantages__card{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   
+   width: 30%;
+
+   padding: 45px 12px 45px 12px;
+
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.15);
+}
+
+.advantages__card--1::before {
+   content: url(..//img/svg/1.svg);
+   width: 50px;
+}
+
+.advantages__card--2::before {
+   content: url(..//img/svg/2.svg);
+   width: 50px;
+}
+
+.advantages__card--3::before {
+   content: url(..//img/svg/3.svg);
+   width: 50px;
+}
+
+.advantages__card--4::before {
+   content: url(..//img/svg/4.svg);
+   width: 50px;
+}
+
+.advantages__card--5::before {
+   content: url(..//img/svg/5.svg);
+   width: 50px;
+}
+
+.advantages__card--6::before {
+   content: url(../img/svg/7.svg);
+   width: 50px;
+}
+
+.advantages__card-text{
+   color: #FFF;
+   
+   font-family: var(--rale);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 36px;
+   text-transform: uppercase;
+}
+
